@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
-    // Below are random numbers between 9 and 120
+    // 
         var randomNumber = Math.floor(Math.random() * 101 + 19);
         console.log(randomNumber);
          $(".show_marks").text(randomNumber);
 
-    // random numbers for the magics between 1 and 12
+    // 
          var mag1 = Math.floor(Math.random() * 11 + 1);
          var mag2 = Math.floor(Math.random() * 11 + 1);
          var mag3 = Math.floor(Math.random() * 11 + 1);
@@ -53,7 +53,7 @@ $(document).ready(function () {
     
     }
 
-    // Putting clicks in the magics 
+    //
     $(".magic").on("click",function(){
 
         totalScore = totalScore + mag1
