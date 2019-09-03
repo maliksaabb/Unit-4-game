@@ -36,7 +36,7 @@ $(document).ready(function () {
     }
 
     function hala(){
-        alert("CONGRATS,YOU WON!");
+        alert("WOHOOOO,YOU WON!");
         win++;
         $(".win").text(win);
         
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
     function dupe(){
 
-        alert ("eh, you lost!");
+        alert ("UH, you lost!");
         loss++;
          $(".loss").text(loss);
         
